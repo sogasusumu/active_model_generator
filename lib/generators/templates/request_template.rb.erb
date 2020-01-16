@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+class <%= klass_name %>
+  # https://railsguides.jp/active_model_basics.html
+  include ActiveModel::Model
+  include ActiveModel::SecurePassword
+  include ActiveModel::Dirty
+  include ActiveModel::Validations
+end
